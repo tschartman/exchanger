@@ -1,0 +1,13 @@
+query candles ($exchange: String!, $baseSymbol: String!, $quoteSymbol: String!, $interval: String!) {
+    candles(exchange: $exchange, baseSymbol: $baseSymbol, quoteSymbol: $quoteSymbol, interval: $interval) {
+        open
+        close
+        high
+        low
+        volume
+        quoteVolume
+        btcVolume
+        usdVolume
+        time
+    }
+}

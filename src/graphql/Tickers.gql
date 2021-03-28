@@ -1,0 +1,10 @@
+query tickers ($exchange: String!) {
+  tickers (exchange: $exchange) {
+	name
+    symbol
+    priceUsd
+    priceBtc
+    percentChange24hUsd
+    lastUpdated
+  }
+}

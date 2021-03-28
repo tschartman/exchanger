@@ -1,0 +1,8 @@
+query supportedExchanges {
+ supportedExchanges {
+    bestCaseFee
+    worstCaseFee
+    exchange
+    icon
+  }
+}

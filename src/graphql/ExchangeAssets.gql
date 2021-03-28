@@ -1,0 +1,8 @@
+query exchangeAssets ($exchange: String!) {
+  exchangeAssets (exchange: $exchange) {
+    id
+    name
+    symbol
+    tradingSymbol
+  }
+}
